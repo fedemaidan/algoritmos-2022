@@ -5,10 +5,12 @@ using namespace std;
 int main(){
 
     /* Asignación interna */
-    /* ¿Cómo sería con asignación externa? */
     int a = 1;
     int b = 2;
     int c = 3;
+
+    /* ¿Cómo sería con asignación externa? */
+
 
     /* Operadores de comparación */
     bool condicion_1 = a < a;
@@ -32,7 +34,10 @@ int main(){
     Condición 3: ??
     Condición or: ??
     Condición and: ??
-
     */
+
+   /*
+        ¿Cómo podríamos usar el if para que imprema verdadero o falso en vez de 1 o 0?
+   */
     return 0;
 }

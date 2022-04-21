@@ -15,5 +15,9 @@ int main(){
         Probando siguiente letra
         La letra siguiente es: ???
     */
+
+   /*
+    ¿Cómo podemos hacer para que pueda avanzar más lugares?
+   */
     return 0;
 }

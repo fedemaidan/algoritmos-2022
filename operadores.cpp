@@ -1,16 +1,22 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 int main(){
 
-    /* Asignación interna */
-    int a = 1;
-    int b = 2;
-    int c = 3;
+    int a;
+    int b;
+    int c;
 
     /* ¿Cómo sería con asignación externa? */
+    cout << "Cargar el valor a: " << endl;
+    cin >> a;
 
+    cout << "Cargar el valor b: " << endl;
+    cin >> b;
+
+    cout << "Cargar el valor c: " << endl;
+    cin >> c;
 
     /* Operadores de comparación */
     bool condicion_1 = a < a;
@@ -21,23 +27,19 @@ int main(){
 
     cout << "Probando operadores de comparación" << endl;
 
-    cout << "Condición 1: " << condicion_1 << endl;
-    cout << "Condición 2: " << condicion_2 << endl;
-    cout << "Condición 3: " << condicion_3 << endl;
-    cout << "Condición or: " << condicion_or << endl;
-    cout << "Condición and: " << condicion_and << endl;
+    cout << "Condición 1: " << condicion_1 << endl; // Condición 1: ( falso  | 0 )
+    cout << "Condición 2: " << condicion_2 << endl; // Condición 2: ( verdadero  | 1 )
+    cout << "Condición 3: " << condicion_3 << endl; // Condición 3: ( falso  | 0 )
+    cout << "Condición or: " << condicion_or << endl; // Condición 4: ( verdader  | 1 )
+    cout << "Condición and: " << condicion_and << endl; // Condición 5: ( falso  | 0 )
 
-    /*
-    Probando operadores de comparación
-    Condición 1: ??
-    Condición 2: ??
-    Condición 3: ??
-    Condición or: ??
-    Condición and: ??
-    */
 
-   /*
-        ¿Cómo podríamos usar el if para que imprema verdadero o falso en vez de 1 o 0?
-   */
+    if (condicion_and) {
+        cout << "Condición and: VERDADERO" << endl;
+    }
+    else {
+        cout << "Condición and: FALSO" << endl;
+    }
+
     return 0;
 }

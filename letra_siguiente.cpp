@@ -6,10 +6,14 @@ int main(){
 
     /* Código asci */
     char letra = 'a';
+    int avanzar;
 
-    cout << "Probando siguiente letra" << endl;
-    letra++;
-    cout << "La letra siguiente es: " << letra << endl;
+    cout << "Avanzar tantos casilleros desde la letra a: " << endl;
+
+    cin >> avanzar;
+    avanzar += letra;
+
+    cout << "La letra siguiente es: " << avanzar << endl;
 
     /*
         Probando siguiente letra
